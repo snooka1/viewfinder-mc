@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "viewfinder",
+	"version": "${version}",
+	"name": "Viewfinder",
+	"description": "Take photos of the world and place them back as real blocks.",
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.example.viewfinder.ViewfinderMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
